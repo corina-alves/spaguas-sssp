@@ -1,3 +1,15 @@
+h1, h2 {
+    color: #005288;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
 body {
   font-family: sans-serif;
   /* margin: 40px; */
@@ -29,54 +41,10 @@ button {
     border-radius: 5px;
 }
 
-/* Navbar */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Transparente */
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  z-index: 1000;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
-
-.logo span {
-  font-weight: normal;
-  font-size: 0.8rem;
-  display: block;
-  line-height: 1;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
-
-.menu li a {
-  color: white;
-  text-decoration: none;
-  font-size: 0.95rem;
-  transition: color 0.3s;
-}
-
-.menu li a:hover {
-  color: #f5c518;
-}
-
 /* Hero */
-.hero {
+.heroadmin {
   height: 100vh;
-  background: url('../img/desert.jpg') no-repeat center center/cover;
+  background: url('../img/sssp.JPG') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,22 +53,23 @@ button {
   color: white;
 }
 
-.hero::before {
+.heroadmin::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* Escurece fundo */
+  background-color: rgba(39, 39, 39, 0.9); /* Escurece fundo */
   z-index: 0;
 }
 
-.hero-content {
+.heroadmin-content {
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 1200px;
   padding: 20px;
+  
 }
 
-.hero h1 {
+.heroadmin h1 {
   /* font-size: 2rem; */
   font-weight: 900;
   letter-spacing: 6px;
@@ -108,7 +77,7 @@ button {
  color: white;
 }
 
-.hero h2 {
+.heroadmin h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: white;
@@ -117,4 +86,50 @@ button {
 /* Ícone de busca como placeholder */
 .search-icon {
   font-size: 1rem;
+}
+
+.upload{
+    padding: 150px;
+}
+.card a{
+    text-decoration: none;
+}
+.div-scroll{
+  border:solid 1px #F00; 
+  overflow: auto;
+   width: 1200px;
+    height: 200px;
+}
+.paginacao-dark {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.page-link {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 8px 14px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #ccc;
+    background-color: #2c2c2c;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-family: sans-serif;
+}
+
+.page-link:hover {
+    background-color: #333;
+    color: white;
+}
+
+.page-link.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-color: #007bff;
 }

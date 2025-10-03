@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda Abril 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .calendar {
+      width: 300px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .calendar-header {
+      background: #008c99;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .calendar-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 10px;
+      background: #e0f1f3;
+    }
+
+    .calendar-days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      background: #eaeaea;
+      text-align: center;
+      font-weight: bold;
+      padding: 5px 0;
+    }
+
+    .calendar-dates {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      text-align: center;
+      padding: 10px;
+    }
+
+    .calendar-dates div {
+      padding: 10px 0;
+      border-radius: 4px;
+      position: relative;
+      cursor: default;
+    }
+
+    .calendar-dates .event-day {
+      background-color: #00a9bb;
+      color: #fff;
+    }
+
+    .tooltip {
+      visibility: hidden;
+      background-color: #f1f1f1;
+      color: #000;
+      text-align: left;
+      padding: 8px;
+      border-radius: 5px;
+      position: absolute;
+      z-index: 1;
+      width: 200px;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      font-size: 12px;
+    }
+
+    .event-day:hover .tooltip {
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calendar">
+    <div class="calendar-nav">
+      <span>&lt;</span>
+      <span><strong>Abril/2025</strong></span>
+      <span>&gt;</span>
+    </div>
+    <div class="calendar-days">
+      <div>DOM</div><div>SEG</div><div>TER</div><div>QUA</div><div>QUI</div><div>SEX</div><div>SÁB</div>
+    </div>
+    <div class="calendar-dates">
+      <div></div><div></div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div>
+      <div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div>
+      <div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div><div>19</div>
+      <div>20</div><div>21</div><div class="event-day">23
+        <div class="tooltip">
+          <strong>Reunião Extraordinária CRH</strong><br>
+          Unidade: Conselho Estadual de Recursos Hídricos<br>
+          Data: 23/04/2025<br>
+          Horário: 09:00<br>
+          Local: Sala de Reuniões do CONSEMA
+        </div>
+      </div>
+      <div>24</div><div>25</div><div>26</div>
+      <div>27</div><div>28</div><div>29</div><div>30</div><div></div><div></div><div></div>
+    </div>
+  </div>
+
+</body>
+</html>
