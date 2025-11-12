@@ -1,7 +1,7 @@
 <?php include "conexao.php"; ?>
 
 <?php
-$por_pagina = 10;
+$por_pagina = 31;
 $pagina = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;
 $inicio = ($pagina - 1) * $por_pagina;
 
@@ -39,13 +39,15 @@ $result = $conn->query($sql);
 
   <link href="assets/img/logo/logo.png" rel="icon">
   <!--Estilos-->
-  <link href="assets/css/style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>    <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/cdn/aos/aos.css" rel="stylesheet">
   <link href="assets/cdn/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/cdn/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/cdn/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/cdn/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/cdn/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
   <script>
     
     window.addEventListener("scroll", function() {
@@ -77,15 +79,17 @@ $result = $conn->query($sql);
   <div class="container">
         <div class="row">
         <div class="col-lg-12 p-5" data-aos="fade-up"> 
+            <div class="card boletins-card p-3">
+                <div class="card-body">
              
-<div class="div-scroll">
+<!-- <div class="div-scroll"> -->
     <!-- Formulário de busca -->
     <form method="GET" class="mb-4 d-flex">
         <input type="text" name="busca" class="form-control me-2" placeholder="Buscar por nome ou data (dd/mm/aaaa)" value="<?= htmlspecialchars($busca) ?>">
         <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
         <a href="boletins-diario.php" type="button" class="btn btn-secundary">Limpar</a>
     </form>
-    <table class="table table-striped table-hover">
+    <table class="">
     <a href="https://drive.google.com/drive/folders/0B4yicqLa_Dj8YTE5ZDUyNTItMjkzYS00ZGJlLTg2M2ItZTI0ZjRjODQ3ZDNk?resourcekey=0-n6Kjkz-jNDVJdgI1dJ1A1A" class="btn btn-outline-primary mb-3" target="_blank">
                 Boletins Anteriores
             </a>
@@ -111,7 +115,7 @@ $result = $conn->query($sql);
             <?php endif; ?>
         </tbody>
     </table>   
- </div>     
+ <!-- </div>      -->
 <!-- Paginação -->
 <div class="col-lg-8 col-offset-lg-2">
     <nav>
@@ -136,7 +140,8 @@ $result = $conn->query($sql);
         </ul>
     </nav>
 </div> 
-
+</div>
+            </div>
  </div>
         </div></div>
     <!-- ======= Footer ======= -->

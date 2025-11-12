@@ -2,33 +2,34 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 footer-info">
-        <a href="index.php"><img src="https://www.spaguas.sp.gov.br/site/wp-content/uploads/2024/09/SP-4.png" style="width="260px; height="90px;" class="logo"></a><br/><br/>
+        <a href="index"><img src="https://www.spaguas.sp.gov.br/site/wp-content/uploads/2024/09/SP-4.png" style="width="260px; height="90px;" class="logo"></a><br/><br/>
         <h2><STRONG>Sala de Situação do Estado de São Paulo</STRONG></h2>
         </div>
 
         <div class="col-lg-2 footer-links">
           <h4>Boletins</h4>
           <ul>
-            <li><a href="boletinsDiario.php" target=_blank>Boletins Diários</a></li>
-            <li><a href="boletinsMensais.php" target=_blank>Boletins Mensais</a></li>
-            <li><a href="boletinsHidrologico.php" target=_blank>Boletins Hidrologico</a></li>
+            <li><a href="boletins-diario">Boletins Diários</a></li>
+            <li><a href="boletins-integrado">Boletins Integrado</a></li>
+            <li><a href="boletins-mensais">Boletins Mensais</a></li>
+            <li><a href="boletins-hidrologico">Boletins Hidrologico</a></li>
           </ul>
           
            <h4>-</h4>
            <ul>
-            <li><a href="visitas.php">Visitas</a></li>
-            <li><a href="hidrologia.php">Hidrologia</a></li>
-            <li><a href="sssp.php">Salas de Situação</a></li>
-            <!-- <li><a href="noticias.html">Notícias</a></li>
-           <li><a href="equipe.php">Equipes</a></li> -->
+            <li><a href="hidrologia">Monitoramento</a></li>
+            <li><a href="sssp">Salas de Situação</a></li>
+             <!-- <li><a href="noticias.html">Notícias</a></li> -->
+           <li><a href="reservatorios">Reservatórios</a></li> 
+           <li><a href="boletim-dos-reservatorios">Boletim dos Reservatórios</a></li> 
           </ul>
         </div>
         <div class="col-lg-3 footer-links">
         <h4> veja mais</h4>
         <ul>
-          <li><a href="https://cth.daee.sp.gov.br/sibh/chuva_agora" target=_blank>Chuva Agora</a></li>
-          <li><a href="https://hidroapp.spaguas.sp.gov.br/mapa" target=_blank>HidroApp</a></li>
-          <li><a href="http://ph.daee.sp.gov.br/" target=_blank>Portal Hidrologia</a></li>
+          <li><a href="https://sssp.spaguas.sp.gov.br/" target=_blank>Chuva Agora</a></li>
+          <li><a href="https://hidroapp.spaguas.sp.gov.br/" target=_blank>HidroApp</a></li>
+          <li><a href="http://ph.spaguas.sp.gov.br/" target=_blank>Portal Hidrologia</a></li>
           <!-- <li><a href="estacoes.html">Estações</a></li> -->
         
         </ul>
@@ -45,8 +46,8 @@
         <div class="col-lg-3 col-md-6 footer-contact">
           <h4>Contato</h4>
           <p>
-            Rua Boa Vista, 170 <br>
-            11º andar, Bloco 5<br>
+            Rua Boa Vista, 175 <br>
+            1º andar, Bloco B<br>
            São Paulo / SP <br>
             <strong>Telefone:</strong> (11) 3293 - 8461<br>
             <strong>Email:</strong> salasituacaosp@spaguas.sp.gov.br<br>
@@ -67,9 +68,9 @@
   </div>
 
   
-    <div class="copyright">
+    <!-- <div class="copyright">
        <strong><span>Sala de Situação do Estado de São Paulo (SSSP/ SP Águas)</span></strong>.
-    </div>
+    </div> -->
     <div class="credits">
 
   </div>

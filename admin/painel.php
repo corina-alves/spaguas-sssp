@@ -45,9 +45,7 @@
 
             <a href="listagemBD.php" class="btn btn-sm btn-warning"><i class="bi bi-eye"></i> Visualizar</a>
         </div>
-        <div class="card-footer">
-            <small class="text-body-secondary"><?php echo date('d/m/Y H:i:s'); ?></small>
-        </div>
+    
         </div>
    
   </div> 
@@ -60,9 +58,7 @@
           <a href="enviarboletimMensal.php" class="btn btn-sm btn-primary"><i class="bi bi-folder-symlink"></i> Cadastrar</a>
           <a href="listagemBoletimMensal.php" class="btn btn-sm btn-warning"><i class="bi bi-eye"></i> Visualizar</a>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary"><?php echo date('d/m/Y H:i:s'); ?></small>
-      </div>
+     
     </div>
    
   </div>
@@ -74,9 +70,18 @@
             <a href="enviarboletimHidrologico.php" class="btn btn-sm btn-primary"><i class="bi bi-folder-symlink"></i> Cadastrar</a>
             <a href="listagemBoletimHidrologico.php" class="btn btn-sm btn-warning"><i class="bi bi-eye"></i> Visualizar</a>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary"><?php echo date('d/m/Y H:i:s'); ?></small>
+   
+    </div>
+</div>
+      <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><strong>BOLETIM INTEGRADO</strong></h5>
+        <p class="card-text">Cadastro de boletim <strong>Integrado</strong> do Estado de São Paulo.</p>
+            <a href="enviarboletimIntegrado.php" class="btn btn-sm btn-primary"><i class="bi bi-folder-symlink"></i> Cadastrar</a>
+            <a href="listagemBoletimIintegrado.php" class="btn btn-sm btn-warning"><i class="bi bi-eye"></i> Visualizar</a>
       </div>
+
     </div>
 
   </div>

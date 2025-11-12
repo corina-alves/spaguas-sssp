@@ -82,17 +82,18 @@ $result = $conn->query($sql);
     </section> -->
    <div class="container">
         <div class="row">
-        <div class="col-lg-12 p-5" data-aos="fade-up"> 
-             
+        <div class="col-lg-12 p-3" data-aos="fade-up"> 
+             <div class="card boletins-card p-4">
+                <div class="card-body">
             <!-- <h1 class="text-center"><strong>Boletins Mensais</strong></h1> -->
-<div class="div-scroll">
+
     <!-- Formulário de busca -->
     <form method="GET" class="mb-4 d-flex">
         <input type="text" name="busca" class="form-control me-2" placeholder="Buscar por nome ou data (dd/mm/aaaa)" value="<?= htmlspecialchars($busca) ?>">
         <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
         <a href="boletins-mensais.php" type="button" class="btn btn-secundary">Limpar</a>
     </form>
-    <table class="table table-striped table-hover">
+    <table class="">
         <a href="https://drive.google.com/drive/folders/0B4yicqLa_Dj8YTE5ZDUyNTItMjkzYS00ZGJlLTg2M2ItZTI0ZjRjODQ3ZDNk?resourcekey=0-n6Kjkz-jNDVJdgI1dJ1A1A" class="btn btn-outline-primary mb-3" target="_blank">
                 Boletins Anteriores
             </a>
@@ -118,7 +119,7 @@ $result = $conn->query($sql);
             <?php endif; ?>
         </tbody>
     </table>   
- </div>     
+     
 <!-- Paginação -->
 <div class="col-lg-8 col-offset-lg-2">
     <nav>
@@ -145,7 +146,7 @@ $result = $conn->query($sql);
 </div> 
 
  </div>
-        </div></div>
+        </div></div> </div></div>
     <!-- ======= Footer ======= -->
   <footer id="footer" class="" style="margin-top: 10px;">
   <?php include "footer.php";?>

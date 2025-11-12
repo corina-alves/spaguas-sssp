@@ -83,7 +83,8 @@ $result = $conn->query($sql);
    <div class="container">
         <div class="row">
         <div class="col-lg-12 p-5" data-aos="fade-up"> 
-             
+             <div class="card boletins-card p-3">
+                <div class="card-body">
 <div class="div-scroll">
     <!-- Formulário de busca -->
     <form method="GET" class="mb-4 d-flex">
@@ -91,7 +92,7 @@ $result = $conn->query($sql);
         <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
         <a href="boletins-hidrologico.php" type="button" class="btn btn-secundary">Limpar</a>
     </form>
-    <table class="table table-striped table-hover">
+    <table class="">
         <a href="https://drive.google.com/drive/folders/0B4yicqLa_Dj8YTE5ZDUyNTItMjkzYS00ZGJlLTg2M2ItZTI0ZjRjODQ3ZDNk?resourcekey=0-n6Kjkz-jNDVJdgI1dJ1A1A" class="btn btn-outline-primary mb-3" target="_blank">
                 Boletins Anteriores
             </a>

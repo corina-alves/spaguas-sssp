@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial com Modal Fixa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* Estilo para a modal */
+        .modal {
+            display: block; /* Mostra a modal automaticamente */
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto; 
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+        }
+        .selection-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .selection-container select {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+            width: 80%;
+        }
+        .selection-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Página Inicial</h2>
+    <p>Selecione os parâmetros na modal abaixo para navegar na aplicação:</p>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2>Selecione os Parâmetros</h2>
+            <div class="selection-container">
+                <select id="regionSelect">
+                    <option value="">Selecione a Região</option>
+                    <option value="Região 1">Região 1</option>
+                    <option value="Região 2">Região 2</option>
+                    <option value="Região 3">Região 3</option>
+                </select>
+                <select id="ughrSelect">
+                    <option value="">Selecione a UGHR</option>
+                    <option value="UGHR 1">UGHR 1</option>
+                    <option value="UGHR 2">UGHR 2</option>
+                    <option value="UGHR 3">UGHR 3</option>
+                </select>
+                <select id="municipioSelect">
+                    <option value="">Selecione o Município</option>
+                    <option value="Município 1">Município 1</option>
+                    <option value="Município 2">Município 2</option>
+                    <option value="Município 3">Município 3</option>
+                </select>
+                <select id="subughrSelect">
+                    <option value="">Selecione a subUGHR</option>
+                    <option value="subUGHR 1">subUGHR 1</option>
+                    <option value="subUGHR 2">subUGHR 2</option>
+                    <option value="subUGHR 3">subUGHR 3</option>
+                </select>
+                <button onclick="selectOptions()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para verificar se pelo menos uma opção foi selecionada
+        function selectOptions() {
+            var region = document.getElementById("regionSelect").value;
+            var ughr = document.getElementById("ughrSelect").value;
+            var municipio = document.getElementById("municipioSelect").value;
+            var subughr = document.getElementById("subughrSelect").value;
+            
+            if (region === "" && ughr === "" && municipio === "" && subughr === "") {
+                alert("Por favor, selecione pelo menos um parâmetro.");
+            } else {
+                alert("Você selecionou: Região - " + region + ", UGHR - " + ughr + ", Município - " + municipio + ", subUGHR - " + subughr);
+                // Aqui você pode adicionar a lógica para navegação baseada nos parâmetros selecionados
+                document.getElementById("myModal").style.display = "none";
+            }
+        }
+
+        // Certificar-se de que a modal está sempre visível até a seleção de pelo menos um parâmetro
+        window.onload = function() {
+            document.getElementById("myModal").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

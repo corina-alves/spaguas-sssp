@@ -1,0 +1,66 @@
+[
+    {
+        "Sistema": "Cantareira",
+        "Vazão natural do dia (m³\/s)": 32.3,
+        "Vazão natural últimos 7 dias (m³\/s)": 28.6,
+        "Vazão natural no mês 2025 (m³\/s)": 31.1,
+        "Vazão natural no mês 2021 (m³\/s)": 19.5,
+        "Vazão natural média climatológica (m³\/s)": 33.3
+    },
+    {
+        "Sistema": "Alto Tietê",
+        "Vazão natural do dia (m³\/s)": 14.8,
+        "Vazão natural últimos 7 dias (m³\/s)": 18.3,
+        "Vazão natural no mês 2025 (m³\/s)": 15.7,
+        "Vazão natural no mês 2021 (m³\/s)": 7.6,
+        "Vazão natural média climatológica (m³\/s)": 11.9
+    },
+    {
+        "Sistema": "Guarapiranga",
+        "Vazão natural do dia (m³\/s)": 13.7,
+        "Vazão natural últimos 7 dias (m³\/s)": 14.3,
+        "Vazão natural no mês 2025 (m³\/s)": 13.5,
+        "Vazão natural no mês 2021 (m³\/s)": 8.1,
+        "Vazão natural média climatológica (m³\/s)": 10.9
+    },
+    {
+        "Sistema": "Cotia",
+        "Vazão natural do dia (m³\/s)": 3.5,
+        "Vazão natural últimos 7 dias (m³\/s)": 4.9,
+        "Vazão natural no mês 2025 (m³\/s)": 4.6,
+        "Vazão natural no mês 2021 (m³\/s)": 3.5,
+        "Vazão natural média climatológica (m³\/s)": 1.5
+    },
+    {
+        "Sistema": "Rio Grande",
+        "Vazão natural do dia (m³\/s)": 3.5,
+        "Vazão natural últimos 7 dias (m³\/s)": 10.4,
+        "Vazão natural no mês 2025 (m³\/s)": 7.1,
+        "Vazão natural no mês 2021 (m³\/s)": 4.7,
+        "Vazão natural média climatológica (m³\/s)": 6
+    },
+    {
+        "Sistema": "Rio Claro",
+        "Vazão natural do dia (m³\/s)": 3.7,
+        "Vazão natural últimos 7 dias (m³\/s)": 4.5,
+        "Vazão natural no mês 2025 (m³\/s)": 4.4,
+        "Vazão natural no mês 2021 (m³\/s)": 4,
+        "Vazão natural média climatológica (m³\/s)": 5.1
+    },
+    {
+        "Sistema": "São Lourenço",
+        "Vazão natural do dia (m³\/s)": 20.2,
+        "Vazão natural últimos 7 dias (m³\/s)": 18.4,
+        "Vazão natural no mês 2025 (m³\/s)": 19,
+        "Vazão natural no mês 2021 (m³\/s)": 15,
+        "Vazão natural média climatológica (m³\/s)": 23.5
+    },
+    {
+        "Sistema": "SIM",
+        "Vazão natural do dia (m³\/s)": 91.8,
+        "Vazão natural últimos 7 dias (m³\/s)": 99.6,
+        "Vazão natural no mês 2025 (m³\/s)": 95.2,
+        "Vazão natural no mês 2021 (m³\/s)": 62.4,
+        "Vazão natural média climatológica (m³\/s)": 94
+    }
+]

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Salas de Situação - Sala de Situação do estado de São paulo - DAEE</title>
+  <title>Salas de Situação - Sala de Situação do estado de São paulo - SP Águas</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/logo/logo.png" rel="icon">
@@ -134,12 +134,8 @@
   <section id="conteudo" class="conteudo">
     <div class="container">
       <div class="row content image-container">
-   <div class="col-md-6 p-4" data-aos="fade-left">
-          <img src="assets/img/posts/equipe.jpg" class="img-fluid">
-        </div>
-
-      
-        <div class="col-md-6 pt-4 " data-aos="fade-right">
+        
+        <div class="col-md-6 pt-4 " data-aos="fade-left">
           <h2><strong>Origem da Sala de Situação</strong></h2>
           <p>
             A primeira tentativa de criar uma rede de <strong>alerta a inundações</strong>, em São Paulo, foi feita em
@@ -160,10 +156,15 @@
             aproximadamente 200 postos, e estudos para a implementação de mais 100.
           </p>
         </div>
+         <div class="col-md-6 p-4" data-aos="fade-right">
+          <img src="assets/img/banner/telasresponsivo.png" class="img-fluid">
+          <center><button class="btn btn-primary"><a href="https://sssp.spaguas.sp.gov.br/" class="glightbox" style="color:white; text-decoration:none; text-align:center">Em Tempo Real</a></button></center>
+        </div>
       </div>
+      
 
       <div class="row content">
-        <div class="col-md-6 pt-4" data-aos="fade-right">
+        <div class="col-md-12 pt-4" data-aos="fade-right">
           <h2><strong>Finalidade da Sala de Situação</strong></h2>
           <p>
             As finalidades da Sala de Situação são apresentar, de forma simples e de fácil compreensão, os dados e
@@ -181,9 +182,9 @@
             <li><i class="bi bi-check-square"></i> Demandas á Defesa Civil</li>
           </ul>
         </div>
-        <div class="col-md-6 p-4" data-aos="fade-left">
+        <!-- <div class="col-md-6 p-4" data-aos="fade-left">
           <img src="assets/img/posts/boletim.png" class="img-fluid">
-        </div>
+        </div> -->
       </div>
       <style>
         .accordion{
@@ -236,7 +237,7 @@
                 <div class="accordion-body">
                     <p data-aos="fade-up"><strong>Localização:</strong> Diretoria de Bacia do Médio Tietê - BMT, cidade de Piracicaba.
                     </p>
-                    <p data-aos="fade-up"><strong>Responsável:</strong> Rafael Antônio Leite</p>
+                    <p data-aos="fade-up"><strong>Responsável:</strong> - </p>
                     <p data-aos="fade-up"><strong>Regiões monitoradas:</strong> Bacias hidrográficas dos Rios Piracicaba, Capivari e
                       Jundiaí.</p>
                     <p data-aos="fade-up"><strong>Horário de funcionamento:</strong> das 08:00 às 17:00 h/dias úteis.</p>
@@ -262,7 +263,7 @@
                     <p data-aos="fade-up"><strong>Localização:</strong> Diretoria de Bacia do Ribeira de Iguape e Litoral Sul - BRB,
                       cidade de
                       Registro.</p>
-                    <p data-aos="fade-up"><strong>Responsável:</strong> Lane</p>
+                    <p data-aos="fade-up"><strong>Responsável:</strong> -</p>
                     <p data-aos="fade-up"><strong>Regiões monitoradas:</strong> Bacia hidrográfica do Rio Ribeira de Iguape.</p>
                     <p data-aos="fade-up"><strong>Horário de funcionamento:</strong> das 08:00 às 17:00 h/dias úteis. Na ocorrência de
                       eventos
@@ -323,10 +324,10 @@
 
                 <ul>
                   <li>
-                    <strong> Período Chuvoso</strong> – outubro, novembro, dezembro, janeiro, fevereiro, março - 6
+                    <strong> Período Chuvoso</strong> – outubro, novembro, dezembro, janeiro, fevereiro e março - 6
                     meses;
                   </li>
-                  <li><strong>Período Seco </strong>– maio, junho, julho, agosto, setembro e outubro - 6 meses;</li>
+                  <li><strong>Período Seco </strong>–abril, maio, junho, julho, agosto e setembro - 6 meses;</li>
                 </ul>
               </article>
 
@@ -359,7 +360,10 @@
                 <div class="col-lg-7">
                   <p>
                     Reservatórios monitorados, SSD - Sistema Produtores, visto em: <a
-                      href="https://cth.daee.sp.gov.br/ssdsp/ target=_blank"> <strong>https://cth.daee.sp.gov.br/ssdsp/ </strong></a>
+                      href="https://sssp.spaguas.sp.gov.br/ssdsp/" target=_blank> <strong>https://sssp.spaguas.sp.gov.br/ssdsp/ </strong></a>
+                  </p>
+                  <p>
+                    Comparativos dos Reservatórios - Sistema Produtores, visto em: <a href="https://sssp.spaguas.sp.gov.br/ssdsp/ target=_blank"> <strong>https://sssp.spaguas.sp.gov.br/ssdsp/ </strong></a>
                   </p>
                 </div>
               </div>

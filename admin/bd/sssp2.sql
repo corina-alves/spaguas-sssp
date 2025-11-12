@@ -56,6 +56,14 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`id`, `usuario`, `senha`) VALUES
 (1, 'admin', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220');
 
+INSERT INTO `admin` (`id`, `usuario`, `senha`) VALUES
+('', 'victor.franck', SHA1('cle1825')'');
+
+INSERT INTO `admin` (`id`, `usuario`, `senha`) VALUES
+('', 'carodrigues', SHA1('20191219'));
+
+INSERT INTO `admin` (`id`, `usuario`, `senha`) VALUES
+('', 'jssantos', SHA1('@654321'));
 -- --------------------------------------------------------
 
 --
